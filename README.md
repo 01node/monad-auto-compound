@@ -98,7 +98,7 @@ crontab -e
 Add:
 
 ```
-0 */6 * * * cd /home/monad/autostake && /home/monad/autostake/venv/bin/python auto_compound.py >> /home/monad/autostake/compound.log 2>&1
+0 */6 * * * cd /home/monad/monad-auto-compound && /home/monad/monad-auto-compound/venv/bin/python auto_compound.py >> /home/monad/monad-auto-compound/compound.log 2>&1
 ```
 
 ## Security
