@@ -15,6 +15,10 @@ Automated script for Monad staking that claims pending rewards and compounds you
 - A funded Monad wallet
 - Existing delegation to a validator
 
+## Dependencies
+
+This project uses [staking_sdk_py](https://github.com/monad-developers/staking-sdk-cli) from Monad Developers for interacting with the staking contract.
+
 ## Installation
 
 ```bash
