@@ -1,0 +1,7 @@
+config.toml
+venv/
+__pycache__/
+*.pyc
+*.log
+*.egg-info/
+.env

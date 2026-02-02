@@ -1,0 +1,17 @@
+# Monad Auto-Compound Configuration
+# Copy this file to config.toml and fill in your values
+
+[network]
+rpc_url = "https://rpc-testnet.monadinfra.com"
+chain_id = 10143  # testnet (use 143 for mainnet)
+contract_address = "0x0000000000000000000000000000000000001000"
+
+[staking]
+# Your wallet private key (with 0x prefix)
+private_key = "0xYOUR_PRIVATE_KEY_HERE"
+
+# Validator ID to stake to
+validator_id = 14
+
+# MON to keep in wallet for gas fees
+reserve_mon = 100
